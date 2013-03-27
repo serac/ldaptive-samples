@@ -38,7 +38,7 @@ public class SampleRunner
       } catch (ClassNotFoundException e) {
         System.err.println("Unknown sample " + args[0]);
       } catch (Exception e) {
-        System.err.println("Error excecuting " + args[0]);
+        System.err.println("Error executing " + args[0]);
         e.printStackTrace();
       }
     }
